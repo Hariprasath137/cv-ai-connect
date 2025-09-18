@@ -57,6 +57,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        recruitment: {
+          primary: "hsl(var(--recruitment-primary))",
+          secondary: "hsl(var(--recruitment-secondary))",
+          success: "hsl(var(--recruitment-success))",
+          warning: "hsl(var(--recruitment-warning))",
+        },
+      },
+      backgroundImage: {
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-card': 'var(--gradient-card)',
+        'gradient-chat': 'var(--gradient-chat)',
+      },
+      boxShadow: {
+        'card': 'var(--shadow-card)',
+        'button': 'var(--shadow-button)',
+        'chat': 'var(--shadow-chat)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
+        'spring': 'var(--transition-spring)',
       },
       borderRadius: {
         lg: "var(--radius)",
